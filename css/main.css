@@ -149,9 +149,6 @@ ul li {
 		padding: 0 15px;
 		vertical-align: bottom;
 	}
-	#header .logo {
-		display: none
-	}
 
 		#header .logo a {
 			padding-top: 32%;
@@ -1042,8 +1039,6 @@ Common Styles
 		}
 
 		#header.fixed .header-content .logo a {
-			padding-top: 12%;
-			color: #fff;
-			text-align: center;
+			display: none;
 		}
 	}
