@@ -82,6 +82,15 @@ body {
 	color: #6c7279;
 	background: #010101;
 }
+
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	position: relative
+}
+
 ul, ol {
 	margin: 0;
 	padding: 0;
