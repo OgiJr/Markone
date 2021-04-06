@@ -1033,12 +1033,19 @@ Common Styles
 		margin: 0 2px;
 	}
 
-	@media only screen and (max-width: 1020px) {
-		#header .logo a {
-			display: none;
-		}
+@media only screen and (max-width: 1020px) {
+	#header .logo a {
+		display: none;
+	}
 
-		#header.fixed .header-content .logo a {
-			display: none;
-		}
+	#header.fixed .header-content .logo a {
+		display: none;
+	}
+
+	#header.fixed .header-content{
+		display:none;
+	}
+	#header.fixed{
+		display: none;
+	}
 	}
