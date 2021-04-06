@@ -133,11 +133,6 @@ ul li {
 	position: relative;
 }
 
-#header .logo{
-	display: none;
-}
-
-@media screen and (min-width: 768px) {
 	#header .logo {
 		float: left;
 		font-size: 24px;
@@ -153,6 +148,11 @@ ul li {
 		text-align: center;
 		padding: 0 15px;
 		vertical-align: bottom;
+	}
+
+@media screen and (min-width: 768px) {
+	#header .logo {
+		display: none;
 	}
 }
 		#header .logo a {
